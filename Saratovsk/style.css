@@ -1,0 +1,85 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+
+}
+
+main{
+	width:70%;
+	margin: auto;
+	background-color: #696969;
+	padding: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2)
+}
+body{
+	background-color: #00FFFF;
+	font-family: impact;
+}
+
+.photo{
+	width: calc(50% - 40px);
+	height: 400px;
+	margin: 10px;
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+    transition: all 1s ease;
+}
+
+.photo1{
+	background-image: url(img/img1.jpg)
+}
+
+.photo2{
+	background-image: url(img/img2.jpg)
+}
+
+.photo3{
+	background-image: url(img/img3.jpg)
+}
+
+.photo4{
+	background-image: url(img/img4.jpg)
+}
+
+.photo5{
+	background-image: url(img/img5.jpg)
+}
+
+.photo6{
+	background-image: url(img/img6.jpg)
+}
+
+.photo7{
+	background-image: url(img/img7.jpg)
+}
+
+.photo8{
+	background-image: url(img/img8.jpg)
+}
+
+.photo9{
+	background-image: url(img/img9.jpg)
+}
+
+.photo10{
+	background-image: url(img/img10.jpg)
+}
+
+@font-face{
+	font-family: Podeba-Regular;
+}
+
+.photo:hover{
+	transform: rotate(3deg) scale(1.3);
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+}
